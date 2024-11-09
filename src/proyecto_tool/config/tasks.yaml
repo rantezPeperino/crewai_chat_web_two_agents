@@ -1,0 +1,19 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024. no more 5 words.
+  expected_output: >
+    A list with 2 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand 2 best topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information. no more 5 words. 
+    The answer in Spanish. In format to display in a chat, add line breaks so that the chat can interpret it, add emojis funy.
+    The result must not have more than 25 words.
+  expected_output: >
+    A resume fledge reports with the mains topics, best 2 with a resumen section of information. 
+    Formatted as markdown without '```' and add emojis funy.
+  agent: reporting_analyst
